@@ -1,0 +1,194 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$1.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$2.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$3.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$.class
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild.class
+binary dependencies:
+10 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.ivy2/cache/scala_2.10/sbt_0.13/ch.epfl.lamp/sbt-coursera/jars/sbt-coursera-0.5.jar
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /Users/madriver/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$1
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$2
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$3
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2
+used names:
+71 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> %
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> %%
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> *
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> **
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> +
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> +++
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> +=
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> /:
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> :=
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> <<=
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> <init>
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Any
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Append
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> CourseraBuild
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> InitializeInstance
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Keys
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ManifestFactory
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Nothing
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ParprogBuild
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> PathFinder
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Predef
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> SbtCourseraPlugin
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Scoped
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Seq
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> Setting
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> SettingKey
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> String
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> _root_
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> append1
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> appendSeq
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> apply
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> autoImport
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> baseDirectory
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> basedir
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ch
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> classType
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> collection
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> commonFiles
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> commonSourcePackages
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> commonSrcs
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> currentProject
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> details
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> detailsMap
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> empty
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> epfl
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> error
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> files
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> getOrElse
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> globFilter
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> handoutFiles
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> instrumentedClassPrefixes
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> lamp
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> libraryDependencies
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> map
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> package
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> packageName
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> pkg
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> projectDetailsMap
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> projectName
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> pure
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> reflect
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> richFile
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> sbt
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> scala
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> set
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> singleFileFinder
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> sys
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> t3ToTable3
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> toGroupID
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> ||
+product stamps:
+9 items
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$1.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$2.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$3.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$1.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1$$anonfun$2.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4$$anonfun$apply$1.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$$anonfun$assignmentSettings$4.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild$.class -> lastModified(1455111148000)
+/Users/madriver/Downloads/funsets/project/target/scala-2.10/sbt-0.13/classes/ParprogBuild.class -> lastModified(1455111148000)
+source stamps:
+1 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> hash(0e7b276f35c04d7f63f1c14d139cca30dca04dc3)
+binary stamps:
+10 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1438711540000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> lastModified(1430155722000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar -> lastModified(1430152399000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> lastModified(1430154346000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> lastModified(1430156194000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> lastModified(1430152707000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> lastModified(1429631778000)
+/Users/madriver/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar -> lastModified(1429631608000)
+/Users/madriver/.ivy2/cache/scala_2.10/sbt_0.13/ch.epfl.lamp/sbt-coursera/jars/sbt-coursera-0.5.jar -> lastModified(1428937730000)
+/Users/madriver/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+10 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/madriver/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.7.jar -> sbt.Init
+/Users/madriver/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.7.jar -> sbt.PathFinder
+/Users/madriver/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.7.jar -> sbt.impl.GroupID
+/Users/madriver/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.7.jar -> sbt.Append$
+/Users/madriver/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.7.jar -> sbt.BuildCommon
+/Users/madriver/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.7.jar -> sbt.package$
+/Users/madriver/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.7.jar -> sbt.Task
+/Users/madriver/.ivy2/cache/scala_2.10/sbt_0.13/ch.epfl.lamp/sbt-coursera/jars/sbt-coursera-0.5.jar -> ch.epfl.lamp.CourseraBuild
+/Users/madriver/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.collection.Seq
+internal apis:
+1 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD6KS1iAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKrACzd0AAZub3RpZnlzcQB+AAz4VunwdAAEd2FpdHNxAH4ADF7Z74t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMbbMNSXQADGJ1aWxkTG9hZGVyc3NxAH4ADPIvCQF0ABpncmFkZVByb2plY3REZXRhaWxzU2V0dGluZ3NxAH4ADOHlU110AAZlcXVhbHNzcQB+AAyFlvdDdAAMZ3JhZGVTZXR0aW5nc3EAfgAMIx7fonQADGFzSW5zdGFuY2VPZnNxAH4ADP9Wmcx0ABJwcm9qZWN0RGVmaW5pdGlvbnNzcQB+AAz4/sGQdAAPc2V0TWF4U2NvcmVIb29rc3EAfgAM+X2kZXQAEnNldE1heFNjb3JlU2V0dGluZ3NxAH4ADLI6OPR0AAxzeW5jaHJvbml6ZWRzcQB+AAwqNT39dAANJGlzSW5zdGFuY2VPZnNxAH4ADC9RAhJ0ABlpbnN0cnVtZW50ZWRDbGFzc1ByZWZpeGVzc3EAfgAMj2fLXnQAGXNlbGVjdFJlc291cmNlc0ZvclByb2plY3RzcQB+AAz4nU0udAAJbm90aWZ5QWxsc3EAfgAMIyDTMHQAC3Jvb3RQcm9qZWN0c3EAfgAMF5j2OHQADFBhcnByb2dCdWlsZHNxAH4ADOjw2P10AAxpc0luc3RhbmNlT2ZzcQB+AAwEnWtedAATZ3JhZGVQcm9qZWN0RGV0YWlsc3NxAH4ADIzFEHx0ABl0ZXN0U291cmNlc0Zyb21Bc3NpZ25tZW50c3EAfgAMaJGLe3QAEmFzc2lnbm1lbnRTZXR0aW5nc3NxAH4ADON9EX10AAVncmFkZXNxAH4ADNLqezN0AAI9PXNxAH4ADLz1bCd0ABFzdWJtaXNzaW9uUHJvamVjdHNxAH4ADE5ZoW50AAVjbG9uZXNxAH4ADO0K3wx0AAtzZXRNYXhTY29yZXNxAH4ADMV5bxF0ABFhc3NpZ25tZW50UHJvamVjdHNxAH4ADOcLD7h0AAh0b1N0cmluZ3NxAH4ADELhfRR0AAIhPXNxAH4ADLOT5Tt0AAhwcm9qZWN0c3NxAH4ADOupOs10ABdyZXNvdXJjZXNGcm9tQXNzaWdubWVudHNxAH4ADFFwv/90AAhnZXRDbGFzc3NxAH4ADGkjO7d0ABVzZWxlY3RUZXN0c0ZvclByb2plY3RzcQB+AAwNHHf2dAACbmVzcQB+AAyi4GC/dAAMZGVwZW5kZW5jaWVzc3EAfgAMfIqxp3QAAmVxc3EAfgAM6ZgalHQACHNldHRpbmdzc3EAfgAMpVatdXQAAiMjc3EAfgAMFAuJd3QACGZpbmFsaXplc3EAfgAMbzZf/XQACGhhc2hDb2Rlc3EAfgAMQuJKhHQAG3N0eWxlQ2hlY2tTdWJtaXNzaW9uU2V0dGluZ3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AMXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIN4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIIAcHNxAH4Ah3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBrTAAJaW5oZXJpdGVkcQB+AGtMAAdwYXJlbnRzcQB+AGt4cQB+AItzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAABzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAABzcQB+AIIAcHNxAH4Ah3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AinQADUNvdXJzZXJhQnVpbGRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAAmNoc3EAfgCndAAEZXBmbHNxAH4Ap3QABGxhbXBzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AqHNxAH4Am3QABUJ1aWxkc3EAfgCfc3EAfgCidXEAfgClAAAAAnNxAH4Ap3QAA3NidHEAfgCwc3EAfgCbdAAGT2JqZWN0c3EAfgCfc3EAfgCidXEAfgClAAAAA3NxAH4Ap3QABGphdmFzcQB+AKd0AARsYW5ncQB+ALBzcQB+AJt0AANBbnlzcQB+AJ9zcQB+AKJ1cQB+AKUAAAACc3EAfgCndAAFc2NhbGFxAH4AsHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFSy2IIuHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvVXNlcnMvbWFkcml2ZXIvRG93bmxvYWRzL2Z1bnNldHMvcHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMC9zYnQtMC4xMy9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUDnsnbzXATX9j8cFNE5zKMNygTcM=
+external apis:
+0 items
+source infos:
+1 items
+/Users/madriver/Downloads/funsets/project/ProgFunBuild.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUstiCLh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9tYWRyaXZlci9Eb3dubG9hZHMvZnVuc2V0cy9wcm9qZWN0L3RhcmdldC9zY2FsYS0yLjEwL3NidC0wLjEzL2NsYXNzZXN0AAEv
