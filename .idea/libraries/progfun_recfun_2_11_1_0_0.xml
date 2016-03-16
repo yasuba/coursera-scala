@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="progfun-recfun_2.11-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/target/scala-2.11/progfun-recfun_2.11-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

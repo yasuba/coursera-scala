@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scalameter-core_2.11-0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/lib_managed/jars/com.storm-enroute/scalameter-core_2.11/scalameter-core_2.11-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

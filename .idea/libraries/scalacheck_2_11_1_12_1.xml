@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scalacheck_2.11-1.12.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/lib_managed/jars/org.scalacheck/scalacheck_2.11/scalacheck_2.11-1.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

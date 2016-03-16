@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="scala-chart_2.11-0.4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/lib_managed/jars/com.github.wookietreiber/scala-chart_2.11/scala-chart_2.11-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

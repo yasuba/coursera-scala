@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="json4s-native_2.11-3.2.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/lib_managed/jars/org.json4s/json4s-native_2.11/json4s-native_2.11-3.2.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

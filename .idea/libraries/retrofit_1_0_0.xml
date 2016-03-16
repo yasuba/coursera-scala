@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="retrofit-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/recfun/lib_managed/jars/com.squareup.retrofit/retrofit/retrofit-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
