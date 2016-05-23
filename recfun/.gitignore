@@ -5,3 +5,10 @@ target
 *.iws
 .idea
 out
+.settings
+.classpath
+.project
+recitations
+submission
+lib
+lib_managed
