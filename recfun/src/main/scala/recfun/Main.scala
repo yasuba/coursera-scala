@@ -14,13 +14,11 @@ object Main {
    * Exercise 1
    */
   def pascal(c: Int, r: Int): Int = {
-    def factorial(n: Int): Int = {
-      def loop(acc: Int, n: Int): Int =
-        if (n == 0) acc
-        else loop(acc * n, n - 1)
-      loop(1, n)
+    def factorial(acc: Int, n: Int): Int = {
+      if (n == 0) acc
+      else factorial(acc * n, n - 1)
     }
-    factorial(r) / (factorial(c) * factorial(r - c))
+    factorial(1, r) / (factorial(1,c) * factorial(1, r-c))
   }
 
   /**
