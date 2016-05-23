@@ -29,12 +29,13 @@ object Main {
     def oppositeBracket(head: Char) = if (head == '(') ')' else '('
     def removePair(closingBracket: Char, list: List[Char]) = list diff List(closingBracket)
 
-    def recursive(parentheses: List[Char]): Boolean = {
+    def areParenthesesBalanced(parentheses: List[Char]): Boolean = {
+      val listWithFirstPairRemoved = removePair(oppositeBracket(parentheses.head), parentheses.tail)
       if (parentheses.head == ')' || parentheses.last == '(') false
-      else if (removePair(oppositeBracket(parentheses.head), parentheses.tail).isEmpty) true
-      else recursive(removePair(closingBracket = oppositeBracket(parentheses.head), list = parentheses.tail))
+      else if (listWithFirstPairRemoved.isEmpty) true
+      else areParenthesesBalanced(listWithFirstPairRemoved)
     }
-    recursive(parentheses)
+    areParenthesesBalanced(parentheses)
   }
 
   /**
