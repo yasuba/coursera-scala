@@ -79,8 +79,10 @@ class FunSetSuite extends FunSuite {
     val s3 = singletonSet(3)
     val s4 = singletonSet(4)
     val s5 = singletonSet(5)
-    val u1 = union(s1, s2)
-    val u2 = union(s1, s1)
+    val u1 = union(s1,s2)
+    val u2 = union(u1, s3)
+    val u3 = union(s4, s5)
+    val u4 = union(u2, u3)
   }
 
   /**
@@ -108,65 +110,71 @@ class FunSetSuite extends FunSuite {
   test("union contains all elements of each set") {
     new TestSets {
       val s = union(s1, s2)
-      assert(contains(s, 1), s)
+      assert(contains(s, 1), "Union 1")
       assert(contains(s, 2), "Union 2")
       assert(!contains(s, 3), "Union 3")
     }
   }
 
-  test("intersect contains elements found in both sets") {
+  test("intersect contains elements that are in both sets") {
     new TestSets {
-      val s = intersect(s1, s2)
-      assert(!contains(s, 1), "Intersect 1")
-      assert(!contains(s, 2), "Intersect 2")
-    }
-    new TestSets {
-      val test = intersect(s1, u1)
-      assert(contains(test, 1), "Intersect failed")
+      val i = intersect(u1, s2)
+      assert(!contains(i, 1), "1 Not in both")
+      assert(contains(i, 2), "2 in both")
+      assert(!contains(i, 3), "3 in neither")
     }
   }
 
-  test("diff the difference of the two given sets") {
+  test("diff contains elements that are in this set and not that set") {
     new TestSets {
-      val s = diff(s1, s2)
-      assert(contains(s, 1), "Diff 1")
+      val i = diff(u1, s2)
+      assert(contains(i, 1), "1 not in s2")
+      assert(!contains(i, 2), "2 is in s2")
+      assert(!contains(i, 3), "3 not in either")
     }
   }
 
-  test("filter the set s for function p") {
+  test("filter elements of set which satisfy a predicate") {
     new TestSets {
-      val s = filter(u1, s1)
-      assert(contains(s, 1), "Filter 1")
+      val f = filter(u2, _ % 2 == 0)
+      val f2 = filter(u4, _ < 5)
+      assert(!contains(f, 1), "1 is not divisible by 2")
+      assert(contains(f, 2), "2 is divisible by 2")
+      assert(!contains(f, 3), "3 is not divisible by 2")
+      assert(!contains(f, 5), "5 is not less than 5")
     }
   }
 
-  test("forall of set s matches function p") {
+  test("forall checks all elements of set satisfy a predicate") {
     new TestSets {
-      val s = union(union(s1, s2), union(s3, s4))
-      assert(forall(s, _ < 1000))
-      assert(!forall(s, _ % 2 == 0))
+      val f = forall(u2, _ % 2 == 0)
+      val f2 = forall(u2, _ < 4)
+      val f3 = forall(u2, _ != 0)
+      assert(!f, "Not all even")
+      assert(f2, "All less than 4")
+      assert(f3, "None equal to zero")
     }
   }
 
-  test("does an element in set s exist that matches function p") {
+  test("exists checks if an element is present that satisfies a predicate") {
     new TestSets {
-      val s = union(union(s1, s2), union(s3, s4))
-      assert(exists(s, _ % 2 == 0))
-      assert(exists(s, _ < 10))
-      assert(!exists(s, _ == 10))
+      val e = exists(u2, _ % 2 == 0)
+      val e2 = exists(u2, _ < 4)
+      val e3 = exists(u2, _ == 0)
+      assert(e, "One is even")
+      assert(e2, "All less than 4")
+      assert(!e3, "None equal to zero")
     }
   }
 
-  test("returns set transformed by applying `f` to each element of `s`") {
+  test("map applies a function to each element in set") {
     new TestSets {
-      def toString(s: Set): String = {
-        val xs = for (i <- -bound to bound if contains(s, i)) yield i
-        xs.mkString("{", ",", "}")
-      }
-
-      val s = union(union(s1, s2), union(s3, s4))
-      val mappedSet = union(union(s2, s3),union(s4, s5))
-      assert(toString(map(s, i => i + 1)) == toString(mappedSet))
+      val m = map(s1, _ + 1)
+      val e2 = exists(u2, _ < 4)
+      val e3 = exists(u2, _ == 0)
+      assert(contains(m, 2), "one is mapped to 2")
     }
   }
+
+
 }

@@ -14,13 +14,14 @@ object Main {
    * Exercise 1
    */
   def pascal(c: Int, r: Int): Int = {
-    def factorial(acc: Int, n: Int): Int = {
-      if (n == 0) acc
+    def factorial(acc: Int, n:Int): Int = {
+      if (r == 0 || c == 0) 1
+      else if (n == 0) acc
       else factorial(acc * n, n - 1)
     }
     factorial(1, r) / (factorial(1,c) * factorial(1, r-c))
   }
-
+  
   /**
    * Exercise 2
    */
@@ -30,24 +31,19 @@ object Main {
     def removePair(closingBracket: Char, list: List[Char]) = list diff List(closingBracket)
 
     def areParenthesesBalanced(parentheses: List[Char]): Boolean = {
-      val listWithFirstPairRemoved = removePair(oppositeBracket(parentheses.head), parentheses.tail)
-      if (parentheses.head == ')' || parentheses.last == '(') false
-      else if (listWithFirstPairRemoved.isEmpty) true
-      else areParenthesesBalanced(listWithFirstPairRemoved)
+      if (parentheses.isEmpty) true
+      else if (parentheses.head == ')' || parentheses.last == '(') false
+      else areParenthesesBalanced(removePair(oppositeBracket(parentheses.head), parentheses.tail))
     }
     areParenthesesBalanced(parentheses)
   }
-
+  
   /**
    * Exercise 3
    */
-    def countChange(money: Int, coins: List[Int]): Int = {
-      def countAccumulator(money: Int, coins: List[Int]): Int = {
-        if (money < 0 || coins.isEmpty) 0
-        else if(money == 0) 1
-        else countAccumulator(money - coins.head, coins) + countAccumulator(money, coins.tail)
-      }
-      countAccumulator(money, coins)
-    }
-
+  def countChange(money: Int, coins: List[Int]): Int = {
+    if (money < 0 || coins.isEmpty) 0
+    else if(money == 0) 1
+    else countChange(money - coins.head, coins) + countChange(money, coins.tail)
+  }
 }

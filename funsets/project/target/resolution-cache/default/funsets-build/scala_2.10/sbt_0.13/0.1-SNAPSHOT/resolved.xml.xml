@@ -4,7 +4,7 @@
 		module="funsets-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160210133218"
+		publication="20160527171942"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
@@ -33,12 +33,16 @@
 		<artifact name="funsets-build" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);provided->default(compile)"/>
-		<dependency org="org.scala-sbt" name="sbt" rev="0.13.7" conf="provided->default(compile)"/>
-		<dependency org="ch.epfl.lamp" name="sbt-coursera" rev="0.5" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
-		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.4"/>
-		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.4"/>
-		<override org="org.scala-lang" module="scala-reflect" matcher="exact" rev="2.10.4"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.5" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.5" conf="scala-tool->default,optional(default);provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.9" conf="provided->default(compile)"/>
+		<dependency org="org.scalastyle" name="scalastyle_2.10" rev="0.8.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaj" name="scalaj-http_2.10" rev="2.2.1" conf="compile->default(compile)"/>
+		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.5"/>
+		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.5"/>
+		<override org="org.scala-lang" module="scala-reflect" matcher="exact" rev="2.10.5"/>
 	</dependencies>
 </ivy-module>
