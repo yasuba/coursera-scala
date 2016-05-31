@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="cafesat_2.11-0.01">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/funsets/lib/cafesat_2.11-0.01.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
